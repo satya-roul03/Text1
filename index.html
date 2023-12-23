@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta lang="en-US">
+<meta charset="utf-8">
+<title>
+task
+</title>
+<script>
+function join()
+{
+	var a = document.getElementById("first").value;
+	var b = document.getElementById("last").value;
+	document.write("Your Name is :- "+a+" "+b);
+}
+</script>
+
+</head>
+<body>
+<h1 align="center">Join Your Name ! </h1>
+<hr/>
+<form>
+First name<br>
+<input type="text" name="Firstname" id="first"><br><br>
+Last name<br>
+<input type="text" name="Lastname" id="last"><br><br>
+<input type="submit" value="Join Your name!" onclick="join()">
+</form>
+
+</body>
+</html>
